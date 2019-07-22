@@ -1,0 +1,37 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-image: url(header.jpg);
+  background-size: cover;
+}
+
+.position{
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	height: 360px;
+}
+.move{
+	font-size: 1.5rem;
+}
+.but-position{
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	height: 230px;
+	/*border: 2px red solid;*/
+}
+
+.but-position .buy .btn .btn-primary{
+	width: 250%;
+	height: 30px;
+	/*background-color: orange;*/
+	color: white;
+	/*margin-right: 30px;*/
+	margin-left: -20px;
+}
